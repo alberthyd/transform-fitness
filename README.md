@@ -31,7 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Install `npm i -g angular-cli-ghpages` to the global environment or check the version for ngh `ngh --version`
 
 ## Deploy on Github Page
-Run `ng build --prod --base-href /transform-fitness/` and run `npx ngh --dir=dist/transform-fitness`
+Run `ng build --prod --base-href /transform-fitness` and run `npx ngh --dir=dist/transform-fitness`
 
 ## Website URL
 `https://alberthyd.github.io/transform-fitness/`
