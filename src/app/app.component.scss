@@ -1,0 +1,23 @@
+.toolbar {
+    padding-left: 10px;
+    background-color: #737373 !important;
+
+    .logo {
+        width: 3.7rem;
+        margin-right: 0.4rem;
+    }
+
+    .title {
+        padding-top: 0.1rem;
+
+        .title_name {
+            padding-top: 0.05rem;
+            font-size: 1.7rem;
+            font-weight: 300;
+        }
+        
+        .title_subtitle {
+            font-family: "Segoe UI Emoji" !important;
+        }
+    }
+}
