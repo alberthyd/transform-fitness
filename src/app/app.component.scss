@@ -14,10 +14,40 @@
             padding-top: 0.05rem;
             font-size: 1.7rem;
             font-weight: 300;
+            letter-spacing: 0.4rem;
+            line-height: 1.7rem;
+
+            // 文字漸層色
+            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         
         .title_subtitle {
             font-family: "Segoe UI Emoji" !important;
+            letter-spacing: 0.4rem;
+            line-height: 0.4rem;
         }
+    }
+}
+
+#located {
+    width: 30rem;
+    height: 25rem;
+    border: 1px solid rgb(151, 151, 151) !important;
+}
+
+@media screen and (min-width: 500px) {
+    .toolbar {
+        padding-left: 7%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #located {
+        width: 100%;
+        height: 12rem;
+        border: 1px solid rgb(151, 151, 151) !important;
     }
 }
